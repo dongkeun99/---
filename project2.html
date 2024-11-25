@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Write on your Information</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <style>
+            .main {
+                font-size: 15px;
+                font-weight: bold;
+                text-align: center;
+                margin-top: 20px;
+            }
+
+            .question1, .question2, .question3 { 
+                font-size: 1.5rem;
+                padding: 15px;
+            }
+
+            .answer1, .answer2, .answer3 {
+                font-size: 1rem;
+                font-weight: bold;
+                padding: 15px;
+            }
+
+            .button {
+                width: 250px;
+                color: #007bff;
+                background-color: transparent;
+                background-image: none;
+                border-color: #007bff;
+                padding: .5rem 1rem;
+                font-size: 1.8rem;
+                line-height: 1.5;
+                border-radius: .3rem;
+                margin-left: 610px;
+                font-weight: bold;
+                border : 3px solid #007bff;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="question1">
+                1. 당신의 성별은 무엇입니까?
+            </div>
+            <div class="answer1">
+                남자 : <input type="radio" name="sex" value="male">
+                여자 : <input type="radio" name="sex" value="female">
+            </div>
+            <div class="question2">
+                2. 본인이 생각하는 본인의 퍼스널 컬러는 무엇입니까?
+            </div>
+            <div class="answer2">
+                <p>봄 웜톤 : <input type="radio" name="color" value="spring">
+                여름 쿨톤 : <input type="radio" name="color" value="summer"></p>
+                <p>가을 웜톤 : <input type="radio" name="color" value="autumn">
+                겨울 쿨톤 : <input type="radio" name="color" value="winter"></p>
+            </div>
+            <div class="question3">
+                3. 본인이 자주 입고, 좋아하는 옷의 색깔은 무엇입니까? (중복선택 가능)
+            </div>
+            <div class="answer3">
+                흰색 : <input type="checkbox" name="color2" value="white">
+                회색 : <input type="checkbox" name="color2" value="gray">
+                검은색 : <input type="checkbox" name="color2" value="black">
+                <p>분홍색 : <input type="checkbox" name="color2" value="pink">
+                빨간색 : <input type="checkbox" name="color2" value="red">
+                주황색 : <input type="checkbox" name="color2" value="orange"></p>
+                <p>노란색 : <input type="checkbox" name="color2" value="yellow">
+                초록색 : <input type="checkbox" name="color2" value="green">
+                파란색 : <input type="checkbox" name="color2" value="blue"></p>
+                <p>네이비색 : <input type="checkbox" name="color2" value="navy">
+                보라색 : <input type="checkbox" name="color2" value="purple">
+                베이지색 : <input type="checkbox" name="color2" value="beige"></p>
+            </div>
+            <div class="button">
+                Go for a test!
+            </div>
+        </div>
+    </body>
+</html>
